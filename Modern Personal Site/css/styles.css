@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather',"Comic Sans MS", cursive, sans-serif;
+  color:#40514E
+}
+
+/*
+# Relative Positioning is relative to the Static Positioning of the elementsozusagen
+# and Static Positioning is where the elementsozusagen is actually placed.
+
+h1 is not centered to do it we use margin the way we used below
+*/
+
+h1{
+  margin:50px auto 0 auto;
+  font-size: 5.625rem; /* 16px--> 100%  therefore  90px --> 90/16 *100 --> 562.5% or 5.625em*/
+  font-family: 'Sacramento',"Comic Sans MS", cursive, sans-serif;
+  color: #3c9d9b;
+  line-height: 2;
+}
+.skill-row{
+margin:100px auto 100px auto;
+width: 50%;
+text-align: left;
+
+}
+
+.butn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: 'Montserrat',"Comic Sans MS", cursive, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3c9d9b;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  color: #ffffee;
+  text-decoration: none;
+}
+
+.skill-img1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+h2{
+  font-family: 'Montserrat',"Comic Sans MS", cursive, sans-serif;
+  color: #3c9d9b;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat',"Comic Sans MS", cursive, sans-serif;
+  color:#3c9d9f;
+}
+a{
+  color:#3c9d9f;
+  text-decoration: none;
+  margin: 0 10px;
+  font-family: 'Montserrat',"Comic Sans MS", cursive, sans-serif;
+}
+
+a:hover {
+  color:#222222;
+  margin: 0 10px;
+  font-family: 'Montserrat',"Comic Sans MS", cursive, sans-serif;
+}
+
+.copyright{
+  padding-top: 10px;
+  font-size: 0.80em;
+}
+
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+p{
+  line-height: 2;
+}
+/*
+To take an element out of the flow of the page use absolute as we know
+*/
+
+
+.top-container{
+  padding-top:100px;
+  position: relative;
+  margin:0;
+  background-color:#dff0ea;
+}
+.middle-container{
+  margin:5em 0 3em 0;
+
+}
+
+.bottom-container{
+  padding-top:2em;
+  padding-bottom:1em;
+  background-color:#dff0ea;
+}
+
+.top-cloud{
+position: absolute;
+right: 300px;
+top:40px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:250px;
+  bottom:300px;
+}
+
+.contact-message{
+  width: 40%;
+  margin:40px auto 60px;
+}
+hr{
+width: 50%;
+margin:80px auto;
+
+border-top:dotted #EAF6F6 8px;
+border-bottom: none;
+
+}
+
+
+.circular{
+border-radius: 100%;
+width: 6rem;
+height: 6rem;
+}
+
+.profile_pic{
+background-color:#eeeeee;
+}
